@@ -139,6 +139,7 @@ INCLUDE_DIRECTORIES(${OpenCV_INCLUDE_DIRS})
 
 FIND_PACKAGE(SuiteSparse REQUIRED)
 include_directories(${CSPARSE_INCLUDE_DIR})
+include_directories(include ${catkin_INCLUDE_DIRS} )
 
 ## Declare a C++ executable
 add_executable(frontierExample 
